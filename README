@@ -1,0 +1,48 @@
+# State Management in Multi-Page Application
+
+You are given a simple counter application built with vanilla JavaScript that spans multiple pages.
+
+## Current Behavior
+
+1. The application maintains a count using a JavaScript variable
+2. The count can be incremented using a button
+3. The count resets to 0 when:
+   - Navigating between pages (index.html ↔ about.html)
+   - Closing/reopening browser tab
+   - Closing/reopening browser window
+
+## Requirements
+
+1. Primary State Management:
+
+   - Continue using JavaScript variable as the primary state
+   - Do NOT convert this into a single-page application
+   - Do NOT use any external libraries/frameworks
+
+2. State Persistence:
+
+   - Preserve count value during page navigation
+   - Preserve count value when closing/reopening tabs
+   - Preserve count value when closing/reopening browser window
+
+3. Architecture Constraints:
+   - Use only vanilla JavaScript
+   - Maintain separation of concerns
+   - Add proper error handling
+   - Consider browser compatibility
+
+## Evaluation Points
+
+1. Code organization and architecture
+2. Error handling and edge cases
+3. Browser storage approach and justification
+4. Performance considerations
+5. Security considerations
+
+## Follow-up Questions
+
+1. How would you handle:
+   - Storage quota exceeded?
+   - Multiple tabs synchronization?
+   - State versioning for app updates?
+2. What are the pros/cons of your chosen storage method?
